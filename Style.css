@@ -1,0 +1,180 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Antonio',sans-serif;
+}
+header{
+    background-color: lightgray;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+.logo_box{
+    width: 940px;
+    position: relative;
+    margin: auto;
+    left: 200px;
+}
+.logo{
+    width: 50%;
+}
+.banner{
+    width:100%;
+    opacity: 0.7;
+}
+.pq{
+
+    display: flex;
+    font-family: 'Antonio', sans-serif;
+    background-color: lightgray;
+    color: #866042;
+    padding: 2%;
+}
+
+.pqtxt{
+    padding: 2%;
+    width: 100%;
+    text-align: right;
+}
+
+.pq h1{
+    color: #FF1616;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 1%;
+    font-size: 5em;
+    width: 100%;
+    font-weight: bold;
+}
+
+.pq h2{
+    color: #004AAD;
+    font-size: 3em;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+}
+.pq ul{
+    line-height: 1.25;
+    font-family: 'Antonio', sans-serif;
+    color: black;
+    font-size: 2em;
+    text-align: right;
+    
+}
+.map{
+    padding: 3em 0;
+    background: linear-gradient(lightgray,white);
+    text-align: center;
+}
+.mapa-conteudo{
+    width: 940px;
+    margin:0 auto;
+}
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+    color: #004AAD;
+    font-size: 2em;
+    font-weight: bold;
+}
+.map h3{
+    text-align: center;
+    color: #FF1616;
+    font-size: 2em;
+    font-weight: bold;
+}
+.bene{
+    width: 100%;
+    font-family: 'Volkorn','serif';
+    position:relative;
+    background-color: lightgray;
+}
+.bene img{
+    width: 100%;
+    opacity: 0.5;
+}
+.benef{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(white,lightgray);
+    box-shadow: 10px 10px 5px 0px rgb(61, 61, 61);  
+}
+.benef h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin:5% 2% 1% 2% ;
+    color: #FF1616;
+}
+.benef h2{
+    text-align: center;
+    font-size: 80px;
+    margin:2%;
+}
+.benef h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin:2% ;
+    color:#004AAD;
+}
+.benef h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin:2%;
+}
+.benef h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin:2% ;
+}
+.benef h6{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin:2%;
+}
+.video{
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+}
+footer{
+    text-align: center;
+    background-color:  rgb(215, 215, 215);
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.logofoot{
+    width:15%;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
