@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Antonio',sans-serif;
+}
+header{
+    background-color: lightgray;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+.logo_box{
+    width: 940px;
+    position: relative;
+    margin: auto;
+    left: 200px;
+}
+.logo{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    background-color:  rgb(215, 215, 215);
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.logofoot{
+    width:15%;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color:  rgb(215, 215, 215);
+    padding-bottom:50px ;
+}
+.categorias{
+    display: flex;
+}
+.texto{
+    text-align: center;
+    width: auto;
+    font-size: 60px;
+    padding-bottom: 20px;   
+}
+.texto p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:0px;
+    
+}
+.Dono{
+    margin-left: 200px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 550px;
+    border-width: 5px;
+    border-style: outset; 
+    border-color: #FF1616;
+    text-align: center;
+}
+.Dono p{
+    margin: 10px;
+    font-size: 60px;
+    text-align: center;
+    color: #004AAD;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #004AAD;
+}
+h1:hover{
+    text-decoration: underline;
+}
+h2{
+    font-size: 22px;
+}
+h2:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: 22px;
+}
+h3:hover{
+    text-decoration: underline;
+}
+h4{
+    font-size: 22px;
+}
+h4:hover{
+    text-decoration: underline;
+}
+.Apostadores{
+    margin-left: 300px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 600px;
+    border-width: 5px;
+    border-style: outset; 
+    border-color: #FF1616;
+    text-align: center;
+    
+}
+.Apostadores p{
+    margin: 10px;
+    font-size: 60px;
+    text-align: center;
+    color: #004AAD;
+}
+.Apostadores h1{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.imgEmp{
+    text-align: center;
+}
+.Dono:hover{
+    box-shadow: 0px 0px 5px 5px rgb(61,61,61);
+}
+.Apostadores:hover{
+    box-shadow: 0px 0px 5px 5px rgb(61,61,61);
+}
