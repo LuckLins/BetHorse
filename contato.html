@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link href="Stylo.css" rel="stylesheet">
+        <title> BetHorse</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo_box">
+                <img src="logo.png" title="Lucas da Silva Lins" class="logo"></img>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catego.html">Categorias</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <form name="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nomesobrenome">* Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+
+                <label for="email">* E-mail</label>
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">* Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <label for="contato">Como prefere o nosso contato?
+                    <input type="radio" value="radio-email" name="Contato">E-mail
+                    <input type="radio" value="radio-telefone" name="Contato">Telefone
+                    <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                </label>
+
+                <br>
+                <label for="horario">Qual o motivo do seu contato?
+                    <select>
+                        <option>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                    </select>
+                </label>
+                <br>
+            </fieldset>
+            <label><input type="checkbox" class="chk">Gostaria de receber as nossas novidades</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <footer>
+            <img class="logofoot" src="logo.png" alt="logo">
+            <p class="copyright">&copy; Copyright BETHORSE - 2022</p>
+        </footer>
+    </body>
+</html>
