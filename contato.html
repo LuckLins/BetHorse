@@ -22,44 +22,53 @@
                 </nav>
             </div>
         </header>
-        <form name="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <label for="nomesobrenome">* Nome e sobrenome</label>
-                <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+        <hr>
+        <main class="cont">
+            <div class="textos">
+                <p class="cont_txt">Gostaria de Entrar em contato com a BETHORSE?</p>
 
-                <label for="email">* E-mail</label>
-                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <h1>Então preencha o formulário 😁</h1>
+            </div>
+            <form name="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomesobrenome">* Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+                    <label for="email">* E-mail</label>
+                    <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-                <label for="mensagem">* Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
 
-                <label for="contato">Como prefere o nosso contato?
-                    <input type="radio" value="radio-email" name="Contato">E-mail
-                    <input type="radio" value="radio-telefone" name="Contato">Telefone
-                    <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
-                </label>
+                    <label for="mensagem">* Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-                <br>
-                <label for="horario">Qual o motivo do seu contato?
-                    <select>
-                        <option>Selecione</option>
-                        <option>Dúvida</option>
-                        <option>Sugestão</option>
-                        <option>Elogio</option>
-                        <option>Reclamação</option>
-                    </select>
-                </label>
-                <br>
-            </fieldset>
-            <label><input type="checkbox" class="chk">Gostaria de receber as nossas novidades</label>
+                    <label for="contato">Como prefere o nosso contato?
+                        <input type="radio" value="radio-email" name="Contato">E-mail
+                        <input type="radio" value="radio-telefone" name="Contato">Telefone
+                        <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                    </label>
 
-            <input type="submit" value="Enviar formulário" class="enviar">
-        </form>
-
+                    <br>
+                    <label for="horario">Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Dúvida</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </label>
+                    <br>
+                </fieldset>
+                <label><input type="checkbox" class="chk">Gostaria de receber as nossas novidades</label>
+                <div class="bota">
+                    <input type="submit" value="Enviar formulário" class="enviar">
+                </div>
+            </form>
+        </main>
+        <hr>
         <footer>
             <img class="logofoot" src="logo.png" alt="logo">
             <p class="copyright">&copy; Copyright BETHORSE - 2022</p>

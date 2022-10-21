@@ -182,3 +182,84 @@ h4:hover{
     padding-left: 30px;
     text-align: center;
 }
+form{
+    /*background-color:  rgb(215, 215, 215);*/
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+form label,form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+fieldset{
+    display: block;
+    /*width: 75%;*/
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+.chk{
+   margin: 5px;
+}
+.bota{
+    text-align: center;
+}
+.enviar{
+    font-family: 'Antonio',sans-serif;
+    width: 40%;
+    padding: 15px 0;
+    color: #004AAD;
+    background: aliceblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: outset;
+    border-color: #FF1616;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: aliceblue;
+    border-color: #FF1616;
+    color: #004AAD;
+    transform: scale(1.2);
+}
+.contato_texto{
+    text-align: center;
+    padding: 0 0 2% 0;
+}
+.contato_titulo{
+    font-weight: bold;
+    font-size: 80px;
+}
+.cont{
+    background-color:rgb(215, 215, 215);
+    
+}
+.cont_txt{
+    font-size: 5em;
+    padding-top: 1%;
+    margin:0;
+    color: #FF1616;
+    /*-webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color: #004AAD;*/
+    text-shadow: 2px 2px #004AAD;
+}
+.textos{
+    text-align: center;
+}
+.textos h1{
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin:0;
+    color: black;
+    text-decoration: none;
+}
