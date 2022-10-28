@@ -4,10 +4,18 @@
         <meta charset="UTF-8"/>
         <link href="Stylo.css" rel="stylesheet">
         <title> BetHorse</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+        <script>
+            alert("Utilize esse formulário para se comunicar conosco!")
+            
+            dia=new Array("Domingo","Segunda-Feira","Terça-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira")
+            mes=new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+            data= new Date
+        </script>
     </head>
     <body>
         <header>
@@ -26,8 +34,14 @@
         <main class="cont">
             <div class="textos">
                 <p class="cont_txt">Gostaria de Entrar em contato com a BETHORSE?</p>
-
+                <p style="text-align: right; margin-right: 10px;">
+                    <script type="text/javascript">
+                        /*alert(data.getDate())  mostrar como está vindo a informação*/
+                        document.write(dia[data.getDay()]+  ", " + ata.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
+                    </script>
+                </p>
                 <h1>Então preencha o formulário 👍</h1>
+                <p>Nosso número: <a class="whatsapp-link" href="https://wa.me/55991111112222" target="_blank"><i class="fa fa-whatsapp"></i></a> (11)4002-8922</p>
             </div>
             <form name="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
                 <fieldset>
